@@ -1,0 +1,61 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.allpages{
+height: 90vh;
+width: 90vw;
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+.page1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.algoChois{
+  background-color: gray;
+  height: 50%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.result{
+    height: 50%;
+    max-width: 100%;
+    overflow: scroll;
+    border: black solid 1px;
+    font-size: 3rem;
+}
+.page2{
+  height: 100%;
+  width: 50%;
+border: 2px solid black;
+font-size: 3rem;
+color: green;
+padding-left: 20px;
+overflow: scroll;
+}
+.size{
+  height: 50px;
+  width: 500px;
+  font-size: 2rem;
+}
+.spet{
+  height: 100px;
+}
+.div{
+  height: 50px;
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+}
